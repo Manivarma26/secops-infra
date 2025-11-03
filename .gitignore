@@ -1,0 +1,19 @@
+# Terraform directories & state files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# Local packages / archives
+lambda_package.zip
+
+# AWS IAM Policy JSONs (sensitive)
+*Access.json
+terraform-oidc-trust-policy.json
+
+# OS Hardening Factory local references
+os-hardening-factory/
+
+# IDE / system files
+.DS_Store
+*.swp
